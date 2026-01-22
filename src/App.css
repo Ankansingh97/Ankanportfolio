@@ -115,50 +115,6 @@ h6 {
   }
 }
 
-.brand-name {
-  font-weight: 800;
-  font-size: 3rem;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  letter-spacing: -0.5px;
-}
-
-.brand-role {
-  color: var(--secondary);
-  font-size: 1.5rem;
-  letter-spacing: 0.5px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.nav {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.nav-link {
-  background: transparent;
-  border: 1px solid transparent;
-  color: var(--text);
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: var(--transition);
-  font-weight: 600;
-  font-size: 0.95rem;
-  letter-spacing: 0.3px;
-}
-
-.nav-link:hover {
-  background: color-mix(in srgb, var(--card) 80%, transparent);
-  border-color: var(--border);
-  transform: translateY(-1px);
-}
-
 .toggle {
   display: inline-flex;
   align-items: center;
