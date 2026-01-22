@@ -135,7 +135,7 @@ h6 {
 
 .nav {
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -149,7 +149,7 @@ h6 {
   cursor: pointer;
   transition: var(--transition);
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1rem;
   letter-spacing: 0.3px;
 }
 
