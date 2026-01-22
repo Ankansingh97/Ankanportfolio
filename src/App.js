@@ -366,7 +366,12 @@ function App() {
                 </button>
                 <button
                   className="btn ghost"
-                  onClick={() => scrollTo("projects")}
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/13bHSNNiALThv_ilLM-jsLON3COXm5miy/view?usp=drivesdk",
+                      "_blank",
+                    )
+                  }
                 >
                   Resume
                 </button>
